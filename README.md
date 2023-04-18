@@ -2,10 +2,11 @@
 A simple backend example with express.
 
 ##### Installation
-$ cp archivo_origen archivo_destino
 
 ```
-.\venv\Scripts\activate # activate virtual environment
-pip install -r requirements.txt
-python main.py
+git clone https://github.com/daritzateheran/express_ludycom.git
+cd express_ludycom
+docker-compose up
+npm install
+npm run dev
 ```
